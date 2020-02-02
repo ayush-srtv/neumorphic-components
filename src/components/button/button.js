@@ -6,10 +6,14 @@ function Button({
   children,
   component: Component = "button",
   className,
+  variant,
   ...props
 }) {
   return (
-    <Component className={clsx("button", className)} {...props}>
+    <Component
+      className={clsx("button", { rounded: variant }, className)}
+      {...props}
+    >
       {children}
     </Component>
   );

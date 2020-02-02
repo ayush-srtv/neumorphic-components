@@ -8,6 +8,7 @@ export default function App() {
       <div>Buttons</div>
       <div className="buttons">
         <Button>Button</Button>
+        <Button variant>😀</Button>
       </div>
     </div>
   );
