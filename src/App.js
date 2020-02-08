@@ -2,6 +2,7 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import Button from "./components/button";
+import Card from "./components/cards";
 import "./styles.css";
 
 export default function App() {
@@ -16,6 +17,10 @@ export default function App() {
               <AiOutlineLinkedin />
             </span>
           </Button>
+        </div>
+        <div>Cards</div>
+        <div className="cards">
+          <Card />
         </div>
       </div>
     </IconContext.Provider>
