@@ -20,7 +20,7 @@ export default function App() {
         </div>
         <div>Cards</div>
         <div className="cards">
-          <Card />
+          <Card icon={<AiOutlineLinkedin />} />
         </div>
       </div>
     </IconContext.Provider>
